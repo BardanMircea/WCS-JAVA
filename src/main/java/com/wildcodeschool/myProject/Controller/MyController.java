@@ -11,7 +11,7 @@ public class MyController {
 
     @GetMapping("/")
     public String getAll() {
-        return "index";
+        return "myIndex";
     }
 
     @GetMapping("/12")
