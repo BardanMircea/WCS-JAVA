@@ -20,19 +20,19 @@ public class MyController {
         return "Peter Capaldi";
     }
 
-    @RequestMapping("/15")
+    @GetMapping("/15")
     @ResponseBody
     public String getFifteenth() {
         return "Ncuti Gatwa";
     }
 
-    @RequestMapping("/13")
+    @GetMapping("/13")
     @ResponseBody
     public String getThirteenth() {
         return "Jodie Whittaker";
     }
 
-    @RequestMapping("/1")
+    @GetMapping("/1")
     @ResponseBody
     public String getFirst() {
         return "William Hartnell";
